@@ -17,7 +17,7 @@ namespace NullHydration
             this.HydrateNullProperties();
         }
 
-        protected void HydrateNullProperties()
+        public void HydrateNullProperties()
         {
             PropertyInfo[] props = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
             foreach (var prop in props)
