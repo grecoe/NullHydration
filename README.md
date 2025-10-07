@@ -15,6 +15,9 @@ This project demonstrates a simple approach to solving this problem. It introduc
 
 You can see this approach in action in [`src/NullHydration/Program.cs`](src/NullHydration/Program.cs), which shows how to use the hydrator to ensure all entity properties are fully initialized.
 
+
+## ChatGPT Description of Entity Framework Entity Materlialization
+
 ---
 
 ### 🧩 1. How EF Core materializes entities
